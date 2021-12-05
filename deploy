@@ -1,0 +1,8 @@
+#!/bin/sh
+USER=ubuntu
+HOST=101.43.77.85
+DIR=/www/wwwroot/www.micsama.icu   # the directory where your web site files should go
+
+hugo && rsync -avz --delete public/ tx:${DIR}
+
+exit 0
