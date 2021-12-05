@@ -3,6 +3,12 @@ title: ExampleSite
 paginate: 5
 theme: PaperMod
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
