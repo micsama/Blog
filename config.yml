@@ -79,11 +79,13 @@ params:
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/micsama"
+    - name: bilibili
+      url: "https://space.bilibili.com/32782620"
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "Micsama"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
